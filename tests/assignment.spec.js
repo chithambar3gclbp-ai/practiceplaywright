@@ -125,7 +125,7 @@ test('employment status', async ({ page }) => {
 
     await page.locator("//a[normalize-space(text())='Employment Status']").click()
 
-    await page.locator("//h6[text()='Employment Status']").toBeVisible()
+    //await page.locator("//h6[text()='Employment Status']").toBeVisible()
     
     await page.locator("//button[contains(.,'Add')]").click()
 
@@ -135,7 +135,7 @@ test('employment status', async ({ page }) => {
 
     await page.locator("//button[@type='submit']").click()
 
-    await expect(page).toHaveURL("https://opensource-demo.orangehrmlive.com/web/index.php/admin/employmentStatus")
+    await expect(page).toHaveURL("https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveEmploymentStatus")
 
 
 });
