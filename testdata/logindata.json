@@ -1,0 +1,11 @@
+{
+ "username": "standard_user",
+ "password": "secret_sauce",
+ "wrongusername": "dgjhjnkgfvhjty",
+ "wrongpassword": "fdghjgj",
+"lockedun":"locked_out_user",
+"problemun":"problem_user",
+"performanceun":"performance_glitch_user"
+
+
+}
